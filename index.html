@@ -36,7 +36,7 @@ hr{border:0;border-top:1px solid #ddd;margin:10px 0 0}
 #export{max-width:900px;margin:30px auto 80px;padding:0 16px}#export button{font-size:17px;padding:14px 22px;border-radius:12px;border:0;background:#111;color:#fff;cursor:pointer;margin-right:8px}
 #export textarea{width:100%;height:320px;margin-top:12px;font-family:ui-monospace,Menlo,monospace;font-size:12px}
 @media(max-width:1100px){.row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;padding-bottom:6px}.tile{flex:0 0 78%;scroll-snap-align:center}h2{font-size:22px}}
-</style></head><body>
+.lowq{position:absolute;right:6px;top:6px;z-index:3;background:#c2410c;color:#fff;font:600 11px sans-serif;padding:2px 6px;border-radius:4px}</style></head><body>
 <header><a href="batch2.html" style="color:inherit">Batch 2 →</a> <b id="cnt">0/100</b><div class="bar"><i id="barfill"></i></div>
 <button onclick="jumpNext()">Next unpicked ↓</button><label><input type="checkbox" id="fulltog"> Show full photo</label><label><input type="checkbox" id="ovtog"> Show sheet overlay</label><button onclick="document.getElementById('export').scrollIntoView({behavior:'smooth'})">Done / Export</button></header>
 <main id="main"></main>
@@ -58,7 +58,7 @@ function render(){
   const s=document.createElement('section');s.className='place';s.id='p'+p.n;s.dataset.idx=idx;
   let h=`<h2>${p.n}. ${p.name}</h2><div class="sub">${p.dest}, ${p.country}</div><div class="row">`;
   h+=`<div class="tile cur" data-k="KEEP" id="cur${p.n}"><span class="lab">CURRENT</span><div class="im"><img data-src="" alt=""><div class="nophoto" style="display:none">No current photo</div></div><div class="meta">photo now in the app</div></div>`;
-  p.c.forEach(c=>{h+=`<div class="tile" data-k="${c.l}"><span class="lab">${c.l}</span><div class="im"><img data-src="${c.f}" alt="${c.l}"></div><div class="meta">${c.src} · ${(c.author||'').replace(/<[^>]*>/g,'').slice(0,30)}</div></div>`});
+  p.c.forEach(c=>{h+=`<div class="tile" data-k="${c.l}"><span class="lab">${c.l}</span>${c.low?'<span class="lowq">low quality</span>':''}<div class="im"><img data-src="${c.f}" alt="${c.l}"></div><div class="meta">${c.src} · ${(c.author||'').replace(/<[^>]*>/g,'').slice(0,30)}</div></div>`});
   h+=`</div><div class="btns"><button data-k="OWN">Own photo</button><button data-k="KEEP" class="keepbtn">Keep current</button><button data-k="" class="clr" style="border:0;background:none;color:#888;font-size:13px">clear</button><span class="st"></span></div><hr>`;
   s.innerHTML=h;m.appendChild(s);
   s.addEventListener('click',e=>{const t=e.target.closest('[data-k]');if(!t||!s.contains(t))return;const k=t.dataset.k;
