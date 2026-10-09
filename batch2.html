@@ -73,7 +73,7 @@ function render(){
 function setCur(n){const t=document.getElementById('cur'+n),im=t.querySelector('img'),np=t.querySelector('.nophoto'),sec=t.closest('.place');
  const none=(msg,hide)=>{im.style.display='none';np.style.display='flex';np.textContent=msg;t.classList.add('nocur');
    if(hide){NOW[n]=null;sec.querySelector('.keepbtn').style.display='none';t.querySelector('.meta').textContent='this place has no photo now';if(user[n]==='KEEP'){delete user[n];save()}paint(n)}else t.querySelector('.meta').textContent='current photo could not be loaded yet'};
- if(NOW[n]===undefined){none('Current photo unknown (DB offline) - Keep current still works',false);return}
+ if(NOW[n]===undefined){none('Current photo not loaded yet',false);return}
  if(NOW[n]===null){none('No current photo',true);return}
  t.classList.remove('nocur');im.dataset.src=NOW[n].url;im.onerror=()=>none('No current photo (link dead)',true)}
 function paint(n){const s=document.getElementById('p'+n),v=val(n);
