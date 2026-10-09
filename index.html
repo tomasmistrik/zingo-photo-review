@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zingo photo review</title>
+<style>
+:root{--hero:390/440}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;background:#f4f4f6;color:#111}
+header{position:sticky;top:0;z-index:20;background:#111;color:#fff;padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header b{font-size:18px}header .bar{flex:1;min-width:120px;height:8px;background:#444;border-radius:4px;overflow:hidden}header .bar i{display:block;height:100%;background:#4ade80;width:0}
+header button,header label{font-size:13px;background:#333;color:#fff;border:0;border-radius:8px;padding:7px 10px;cursor:pointer}
+.place{max-width:1700px;margin:0 auto;padding:22px 14px 10px;scroll-margin-top:60px}
+h2{margin:0 0 2px;font-size:26px}.sub{color:#666;margin-bottom:10px;font-size:14px}
+.row{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.tile{position:relative;border:4px solid transparent;border-radius:12px;background:#fff;cursor:pointer;overflow:hidden;padding:0;text-align:left}
+.tile .im{aspect-ratio:var(--hero);width:100%;background:#e8e8e8;overflow:hidden;border-radius:8px}
+.tile img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+body.full .tile img{object-fit:contain;background:#222}
+.tile .lab{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.75);color:#fff;font-weight:700;font-size:15px;padding:2px 8px;border-radius:6px}
+.tile .src{position:absolute;right:8px;bottom:62px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;padding:1px 6px;border-radius:5px}
+.tile .meta{font-size:11px;color:#777;padding:4px 4px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile.sel{border-color:#16a34a;box-shadow:0 0 0 3px rgba(22,163,74,.35)}
+.tile.sel .lab{background:#16a34a}
+.tile.cur{border:4px dashed #bbb;cursor:default}.tile.cur .lab{background:#6b7280}
+.tile.cur.sel{border:4px solid #16a34a;cursor:pointer}.tile.cur.nocur{cursor:default;opacity:.8}
+.nophoto{display:flex;align-items:center;justify-content:center;height:100%;color:#888;font-size:14px;text-align:center;padding:8px}
+.btns{display:flex;gap:10px;margin:10px 0 4px;flex-wrap:wrap;align-items:center}
+.btns button{font-size:15px;padding:10px 16px;border-radius:10px;border:2px solid #ccc;background:#fff;cursor:pointer}
+.btns button.on{background:#16a34a;color:#fff;border-color:#16a34a}
+.btns .st{font-size:13px;color:#555}.guess{background:#f59e0b;color:#000;font-weight:700;padding:3px 8px;border-radius:6px;font-size:12px}
+.pre{background:#dbeafe;color:#1e3a8a;padding:3px 8px;border-radius:6px;font-size:12px}
+hr{border:0;border-top:1px solid #ddd;margin:10px 0 0}
+#export{max-width:900px;margin:30px auto 80px;padding:0 16px}#export button{font-size:17px;padding:14px 22px;border-radius:12px;border:0;background:#111;color:#fff;cursor:pointer;margin-right:8px}
+#export textarea{width:100%;height:320px;margin-top:12px;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+@media(max-width:1100px){.row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;padding-bottom:6px}.tile{flex:0 0 78%;scroll-snap-align:center}h2{font-size:22px}}
+</style></head><body>
+<header><b id="cnt">0/100</b><div class="bar"><i id="barfill"></i></div>
+<button onclick="jumpNext()">Next unpicked ↓</button><label><input type="checkbox" id="fulltog"> Show full photo</label><button onclick="document.getElementById('export').scrollIntoView({behavior:'smooth'})">Done / Export</button></header>
+<main id="main"></main>
+<section id="export"><h2>Done / Export</h2><div id="sum" class="sub"></div>
+<button onclick="doExport()">Show picks JSON</button><button onclick="copyJson()">Copy</button><button onclick="dl()">Download</button>
+<textarea id="out" readonly placeholder="Press 'Show picks JSON'"></textarea></section>
+<script>
+const KEY='zingo_review_picks_v1';let D=[],PRE={picks:{},guess:[]},NOW={},user={};
+try{user=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+const $=s=>document.querySelector(s);
+const val=n=>user[n]!==undefined?user[n]:(PRE.picks[n]||null);
+function save(){try{localStorage.setItem(KEY,JSON.stringify(user))}catch(e){}}
+function hasCur(n){return NOW[n]===undefined||!!(NOW[n]&&NOW[n].url)}
+function lazyLoad(sec){if(sec.dataset.loaded)return;sec.dataset.loaded=1;sec.querySelectorAll('img[data-src]').forEach(i=>{i.src=i.dataset.src;i.removeAttribute('data-src')})}
+function loadAhead(idx,k=10){const s=document.querySelectorAll('.place');for(let i=idx;i<Math.min(s.length,idx+k+1);i++)lazyLoad(s[i])}
+function render(){
+ const m=$('#main');m.innerHTML='';
+ D.forEach((p,idx)=>{
+  const s=document.createElement('section');s.className='place';s.id='p'+p.n;s.dataset.idx=idx;
+  let h=`<h2>${p.n}. ${p.name}</h2><div class="sub">${p.dest}, ${p.country}</div><div class="row">`;
+  h+=`<div class="tile cur" data-k="KEEP" id="cur${p.n}"><span class="lab">CURRENT</span><div class="im"><img data-src="" alt=""><div class="nophoto" style="display:none">No current photo</div></div><div class="meta">photo now in the app</div></div>`;
+  p.c.forEach(c=>{h+=`<div class="tile" data-k="${c.l}"><span class="lab">${c.l}</span><div class="im"><img data-src="${c.f}" alt="${c.l}"></div><div class="meta">${c.src} · ${(c.author||'').replace(/<[^>]*>/g,'').slice(0,30)}</div></div>`});
+  h+=`</div><div class="btns"><button data-k="OWN">Own photo</button><button data-k="KEEP" class="keepbtn">Keep current</button><button data-k="" class="clr" style="border:0;background:none;color:#888;font-size:13px">clear</button><span class="st"></span></div><hr>`;
+  s.innerHTML=h;m.appendChild(s);
+  s.addEventListener('click',e=>{const t=e.target.closest('[data-k]');if(!t||!s.contains(t))return;const k=t.dataset.k;
+    if(t.classList.contains('cur')&&!hasCur(p.n))return;if(k==='KEEP'&&!hasCur(p.n))return;
+    user[p.n]=(k==='')?null:k;save();paint(p.n);
+    if(k!==''){setTimeout(()=>{const nx=document.getElementById('p'+(p.n+1));if(nx)nx.scrollIntoView({behavior:'smooth',block:'start'});loadAhead(idx+1)},300)}});
+  setCur(p.n);paint(p.n);
+ });
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)loadAhead(+e.target.dataset.idx)}),{rootMargin:'1500px 0px'});
+ document.querySelectorAll('.place').forEach(s=>io.observe(s));loadAhead(0);count();
+}
+function setCur(n){const t=document.getElementById('cur'+n),im=t.querySelector('img'),np=t.querySelector('.nophoto'),sec=t.closest('.place');
+ const none=(msg,hide)=>{im.style.display='none';np.style.display='flex';np.textContent=msg;t.classList.add('nocur');
+   if(hide){NOW[n]=null;sec.querySelector('.keepbtn').style.display='none';t.querySelector('.meta').textContent='this place has no photo now';if(user[n]==='KEEP'){delete user[n];save()}paint(n)}else t.querySelector('.meta').textContent='current photo could not be loaded yet'};
+ if(NOW[n]===undefined){none('Current photo not loaded yet',false);return}
+ if(NOW[n]===null){none('No current photo',true);return}
+ t.classList.remove('nocur');im.dataset.src=NOW[n].url;im.onerror=()=>none('No current photo (link dead)',true)}
+function paint(n){const s=document.getElementById('p'+n),v=val(n);
+ s.querySelectorAll('.tile').forEach(t=>t.classList.toggle('sel',t.dataset.k===v&&v!=='OWN'));
+ s.querySelectorAll('.btns button').forEach(b=>b.classList.toggle('on',b.dataset.k===v&&v!==''));
+ const st=s.querySelector('.st');let x='';
+ if(user[n]===undefined||user[n]===null){if(PRE.picks[n]&&user[n]===undefined)x='<span class="pre">pre-filled from your earlier picks</span> ';if(PRE.guess.includes(n)&&user[n]===undefined)x+='<span class="guess">⚠ GUESS — please check this one</span>'}
+ if(v==='OWN')x+=' → will use your own photo';if(v==='KEEP')x+=' → keeping current';st.innerHTML=x;count()}
+function count(){let c=0;D.forEach(p=>{if(val(p.n))c++});$('#cnt').textContent=c+'/'+D.length;$('#barfill').style.width=(100*c/D.length)+'%'}
+function jumpNext(){const p=D.find(p=>!val(p.n));if(p)document.getElementById('p'+p.n).scrollIntoView({behavior:'smooth'});else $('#export').scrollIntoView({behavior:'smooth'})}
+function result(){const picks={},own=[],keep=[],unp=[];D.forEach(p=>{const v=val(p.n);if(!v){unp.push(p.n);return}picks[p.n]=v;if(v==='OWN')own.push({n:p.n,name:p.name,dest:p.dest});if(v==='KEEP')keep.push({n:p.n,name:p.name})});
+ return{picks,own_photo_list:own,keep_current:keep,unpicked:unp,guesses_unconfirmed:PRE.guess.filter(n=>user[n]===undefined)}}
+function doExport(){const r=result();$('#out').value=JSON.stringify(r,null,1);$('#sum').textContent=`${Object.keys(r.picks).length} picked, ${r.own_photo_list.length} own photo, ${r.keep_current.length} keep current, ${r.unpicked.length} unpicked`}
+function copyJson(){doExport();const t=$('#out');t.select();try{navigator.clipboard.writeText(t.value)}catch(e){document.execCommand('copy')}alert('Copied')}
+function dl(){doExport();const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([$('#out').value],{type:'application/json'}));a.download='zingo_photo_picks.json';a.click()}
+$('#fulltog').onchange=e=>document.body.classList.toggle('full',e.target.checked);
+Promise.all([fetch('data.json').then(r=>r.json()),fetch('prefill.json').then(r=>r.json()),fetch('now.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,p,n])=>{D=d;PRE=p;Object.keys(n).forEach(k=>NOW[+k]=n[k]?{url:n[k]}:null);render()});
+</script></body></html>
