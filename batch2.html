@@ -91,5 +91,5 @@ function copyJson(){doExport();const t=$('#out');t.select();try{navigator.clipbo
 function dl(){doExport();const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([$('#out').value],{type:'application/json'}));a.download='zingo_photo_picks.json';a.click()}
 $('#ovtog').onchange=e=>document.body.classList.toggle('ov',e.target.checked);
 $('#fulltog').onchange=e=>document.body.classList.toggle('full',e.target.checked);
-Promise.all([fetch('data2.json').then(r=>r.json()),Promise.resolve({picks:{},guess:[]}),Promise.resolve({})]).then(([d,p,n])=>{D=d;PRE=p;Object.keys(n).forEach(k=>NOW[+k]=n[k]?{url:n[k]}:null);render()});
+Promise.all([fetch('data2.json').then(r=>r.json()),Promise.resolve({picks:{},guess:[]}),fetch('now2.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,p,n])=>{D=d;PRE=p;Object.keys(n).forEach(k=>NOW[+k]=n[k]?{url:n[k]}:null);render()});
 </script></body></html>
