@@ -1,6 +1,6 @@
 /* Own photo: paste / drop / choose -> crop to the pick-row thumbnail ratio (.tile .im aspect-ratio var(--vis) = 390/320.48) -> JPEG 1600w q0.85 -> IndexedDB. */
 (function(){
-const RW=390,RH=320.48,OUTW=1600,OUTH=Math.round(OUTW*RH/RW),Q=0.85;
+const RW=(window.OWN_RATIO||[390,320.48])[0],RH=(window.OWN_RATIO||[390,320.48])[1],OUTW=1600,OUTH=Math.round(OUTW*RH/RW),Q=0.85;
 const DBN='zingo_own_photos';let dbp;
 function db(){return dbp||(dbp=new Promise((ok,ko)=>{const r=indexedDB.open(DBN,1);r.onupgradeneeded=()=>r.result.createObjectStore('p');r.onsuccess=()=>ok(r.result);r.onerror=()=>ko(r.error)}))}
 function tx(mode,fn){return db().then(d=>new Promise((ok,ko)=>{const t=d.transaction('p',mode),s=t.objectStore('p');const r=fn(s);t.oncomplete=()=>ok(r&&r.result);t.onerror=()=>ko(t.error)}))}
@@ -43,8 +43,12 @@ function showAdj(n,L){const t=tileOf(n,L);if(!t)return;const im=t.querySelector(
  if(aurl[key]){URL.revokeObjectURL(aurl[key]);delete aurl[key]}t.classList.toggle('adj',!!a);
  if(a){if(!t.dataset.orig)t.dataset.orig=im.getAttribute('data-src')||im.getAttribute('src')||'';aurl[key]=URL.createObjectURL(a.blob);im.removeAttribute('data-src');im.src=aurl[key];im.classList.add('adjimg');im.style.display=''}
  else if(t.dataset.orig!==undefined){im.classList.remove('adjimg');im.src=t.dataset.orig;delete t.dataset.orig}}
-async function adjust(n,L){const p=item(n),a=ADJ[n]&&ADJ[n][L],url=(a&&a.src)||srcOf(n,L);if(!url){alert('No photo to adjust');return}
- try{const r=await fetch(url,{mode:'cors'});if(!r.ok)throw r.status;const b=await r.blob();crop(n,b,{L,src:url,rect:a&&a.rect})}catch(e){alert('Could not load this photo for adjusting ('+e+')')}}
+function fullOf(n,L){if(L==='KEEP')return null;const p=item(n),c=p&&p.c.find(c=>c.l===L);return c&&c.full}
+async function getBlob(u){const r=await fetch(u,{mode:'cors'});if(!r.ok)throw r.status;const b=await r.blob();if(!b.type.startsWith('image/'))throw 'not an image';return b}
+async function adjust(n,L){const a=ADJ[n]&&ADJ[n][L],urls=[...new Set([a&&a.src,fullOf(n,L),srcOf(n,L)].filter(Boolean))];if(!urls.length){alert('No photo to adjust');return}
+ document.body.style.cursor='progress';let err;
+ for(const url of urls){try{const b=await getBlob(url);document.body.style.cursor='';crop(n,b,{L,src:url,rect:a&&a.rect});return}catch(e){err=e}}
+ document.body.style.cursor='';alert('Could not load this photo for adjusting ('+err+')')}
 function addAdj(sec){const n=+sec.id.slice(1);sec.querySelectorAll('.tile:not(.own)').forEach(t=>{const L=t.classList.contains('cur')?'KEEP':t.dataset.k;if(!L||t.querySelector('.adjbtn'))return;
  const b=document.createElement('button');b.className='adjbtn';b.title='Reposition / zoom';b.textContent='✥';b.onclick=e=>{e.stopPropagation();if(L==='KEEP'&&!hasCur(n))return;adjust(n,L)};
  const r=document.createElement('button');r.className='adjrst';r.title='Reset to original';r.textContent='↺';r.onclick=e=>{e.stopPropagation();adel(n,L).then(()=>{if(ADJ[n])delete ADJ[n][L];showAdj(n,L)})};
@@ -56,7 +60,7 @@ function loadAdj(){return db().then(d=>new Promise(ok=>{const t=d.transaction('p
 /* crop editor */
 const M=document.createElement('div');M.id='opModal';M.innerHTML='<div id="opTitle"></div><div id="opFrame"><img></div><div class="ctl">Zoom <input type="range" id="opZoom" min="1" max="4" step="0.01" value="1"></div><div class="ctl"><button id="opCancel">Cancel</button><button id="opSave">Use this crop</button></div><div style="font-size:12px;opacity:.7">Drag to position · scroll / pinch / slider to zoom · frame = same shape as the photo tiles</div>';
 document.body.appendChild(M);
-const F=M.querySelector('#opFrame'),I=F.querySelector('img'),Z=M.querySelector('#opZoom');let st=null;
+const F=M.querySelector('#opFrame'),I=F.querySelector('img'),Z=M.querySelector('#opZoom');let st=null;F.style.setProperty('--crop',RW+'/'+RH);F.style.setProperty('--cropf',RW/RH);
 let raf=0;function lay(){if(!raf)raf=requestAnimationFrame(lay0)}
 function lay0(){raf=0;if(!st)return;const fw=F.clientWidth,fh=F.clientHeight,b=Math.max(fw/st.w,fh/st.h),s=b*st.z;
  st.x=Math.min(0,Math.max(fw-st.w*s,st.x));st.y=Math.min(0,Math.max(fh-st.h*s,st.y));I.style.transform=`translate3d(${st.x}px,${st.y}px,0) scale(${s})`;st.s=s}
