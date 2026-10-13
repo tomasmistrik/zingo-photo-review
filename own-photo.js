@@ -38,14 +38,16 @@ document.addEventListener('paste',e=>{if(document.getElementById('opModal').clas
  if(n){e.preventDefault();crop(n,f)}});
 /* adjust any tile (current + A-E) */
 function tileOf(n,L){const s=document.getElementById('p'+n);return L==='KEEP'?document.getElementById('cur'+n):s.querySelector(`.tile[data-k="${L}"]:not(.cur)`)}
-function srcOf(n,L){if(L==='KEEP')return NOW[n]&&NOW[n].url;const p=item(n),c=p&&p.c.find(c=>c.l===L);return c&&(c.full||c.f)}
+function srcOf(n,L){if(L==='KEEP')return NOW[n]&&NOW[n].url;const p=item(n),c=p&&p.c.find(c=>c.l===L);return c&&c.f}
 function showAdj(n,L){const t=tileOf(n,L);if(!t)return;const im=t.querySelector('.im img'),a=ADJ[n]&&ADJ[n][L],key=n+':'+L;
  if(aurl[key]){URL.revokeObjectURL(aurl[key]);delete aurl[key]}t.classList.toggle('adj',!!a);
  if(a){if(!t.dataset.orig)t.dataset.orig=im.getAttribute('data-src')||im.getAttribute('src')||'';aurl[key]=URL.createObjectURL(a.blob);im.removeAttribute('data-src');im.src=aurl[key];im.classList.add('adjimg');im.style.display=''}
  else if(t.dataset.orig!==undefined){im.classList.remove('adjimg');im.src=t.dataset.orig;delete t.dataset.orig}}
-function fullOf(n,L){if(L==='KEEP')return null;const p=item(n),c=p&&p.c.find(c=>c.l===L);return c&&c.full}
-async function getBlob(u){const r=await fetch(u,{mode:'cors'});if(!r.ok)throw r.status;const b=await r.blob();if(!b.type.startsWith('image/'))throw 'not an image';return b}
-async function adjust(n,L){const a=ADJ[n]&&ADJ[n][L],urls=[...new Set([a&&a.src,fullOf(n,L),srcOf(n,L)].filter(Boolean))];if(!urls.length){alert('No photo to adjust');return}
+function fullOf(n,L){if(L==='KEEP')return [];const p=item(n),c=p&&p.c.find(c=>c.l===L),u=c&&c.full;if(!u)return [];
+ const m=u.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons)\/(\w\/\w\w)\/([^/?#]+)(?:\?.*)?$/);   /* Commons original can be 20 MB: try a 2400px rendition first */
+ return m?[`${m[1]}/thumb/${m[2]}/${m[3]}/2400px-${m[3]}`,u]:[u]}
+async function getBlob(u){const ac=new AbortController(),tm=setTimeout(()=>ac.abort(),20000);const r=await fetch(u,{mode:'cors',signal:ac.signal}).finally(()=>clearTimeout(tm));if(!r.ok)throw r.status;const b=await r.blob();if(!b.type.startsWith('image/'))throw 'not an image';return b}
+async function adjust(n,L){const a=ADJ[n]&&ADJ[n][L],urls=[...new Set([a&&a.src,...fullOf(n,L),srcOf(n,L)].filter(Boolean))];if(!urls.length){alert('No photo to adjust');return}
  document.body.style.cursor='progress';let err;
  for(const url of urls){try{const b=await getBlob(url);document.body.style.cursor='';crop(n,b,{L,src:url,rect:a&&a.rect});return}catch(e){err=e}}
  document.body.style.cursor='';alert('Could not load this photo for adjusting ('+err+')')}
