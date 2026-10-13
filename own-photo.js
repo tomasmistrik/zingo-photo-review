@@ -1,6 +1,10 @@
-/* Own photo: paste / drop / choose -> crop to app place-photo ratio 390:438.88 (trip_place_details_sheet hero = full width x 0.52H on 390x844) -> JPEG 1200w q0.85 -> IndexedDB. */
+/* Own photo: paste / drop / choose -> crop -> JPEG 1200w q0.85 -> IndexedDB.
+   Geometry from pingo lib/widgets/trip_place_details_sheet.dart (release-1-0-16 + main), iPhone 393x852pt, bottom inset 34:
+   hero box = full width x (H - 0.48H) = 393 x 443.04 (L364 Positioned.fill bottom 0.48H, BoxFit.cover) -> JPEG covers this whole box.
+   sheet panel = 0.58H + bottomInset = 528.16 (L161/L164), top radius 28 (sheet_title_bar.dart:6) -> panel top at 323.84: visible = 393 x 323.84.
+   cards: 64x64 square, radius 16, BoxFit.cover centred (place_photo_or_pin.dart:57-59, app_card_style.dart:7-8) -> dashed square. */
 (function(){
-const RW=390,RH=438.88,OUTW=1200,OUTH=Math.round(OUTW*RH/RW),Q=0.85;
+const RW=393,RH=443.04,VIS=323.84,RAD=28,OUTW=1200,OUTH=Math.round(OUTW*RH/RW),Q=0.85;
 const DBN='zingo_own_photos';let dbp;
 function db(){return dbp||(dbp=new Promise((ok,ko)=>{const r=indexedDB.open(DBN,1);r.onupgradeneeded=()=>r.result.createObjectStore('p');r.onsuccess=()=>ok(r.result);r.onerror=()=>ko(r.error)}))}
 function tx(mode,fn){return db().then(d=>new Promise((ok,ko)=>{const t=d.transaction('p',mode),s=t.objectStore('p');const r=fn(s);t.oncomplete=()=>ok(r&&r.result);t.onerror=()=>ko(t.error)}))}
@@ -34,8 +38,10 @@ document.addEventListener('paste',e=>{if(document.getElementById('opModal').clas
  let n=hover||active;if(!n){const s=[...document.querySelectorAll('.place')].find(s=>s.getBoundingClientRect().bottom>80);n=s&&+s.id.slice(1)}
  if(n){e.preventDefault();crop(n,f)}});
 /* crop editor */
-const M=document.createElement('div');M.id='opModal';M.innerHTML='<div id="opTitle"></div><div id="opFrame"><img></div><div class="ctl">Zoom <input type="range" id="opZoom" min="1" max="4" step="0.01" value="1"></div><div class="ctl"><button id="opCancel">Cancel</button><button id="opSave">Use this crop</button></div><div style="font-size:12px;opacity:.7">Drag to position · scroll / pinch / slider to zoom · frame = app place photo</div>';
+const M=document.createElement('div');M.id='opModal';M.innerHTML='<div id="opTitle"></div><div id="opFrame"><img><div id="opDim"></div><div id="opSq"></div><div id="opVis"></div></div><div class="ctl">Zoom <input type="range" id="opZoom" min="1" max="4" step="0.01" value="1"></div><div class="ctl"><button id="opCancel">Cancel</button><button id="opSave">Use this crop</button></div><div style="font-size:12px;opacity:.7">Drag to position · scroll / pinch / slider to zoom · bright area = what the place screen shows, dimmed = hidden under the sheet (still saved) · dashed square = card thumbnail</div>';
 document.body.appendChild(M);
+const pc=v=>(100*v/RH)+'%';Object.assign(M.querySelector('#opDim').style,{top:pc(VIS),borderRadius:`${100*RAD/RW}cqw ${100*RAD/RW}cqw 0 0`});
+Object.assign(M.querySelector('#opVis').style,{height:pc(VIS)});Object.assign(M.querySelector('#opSq').style,{top:pc((RH-RW)/2),height:pc(RW)});
 const F=M.querySelector('#opFrame'),I=F.querySelector('img'),Z=M.querySelector('#opZoom');let st=null;
 function lay(){const fw=F.clientWidth,fh=F.clientHeight,b=Math.max(fw/st.w,fh/st.h),s=b*st.z;
  st.x=Math.min(0,Math.max(fw-st.w*s,st.x));st.y=Math.min(0,Math.max(fh-st.h*s,st.y));I.style.transform=`translate(${st.x}px,${st.y}px) scale(${s})`;st.s=s}
