@@ -1,0 +1,1281 @@
+[
+ {
+  "n": 1,
+  "id": "AI",
+  "name": "Anguilla",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Anguilla",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_AI_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anguilla-aerial_view_western_portion.jpg",
+    "author": "Roy Googin",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Anguilla-aerial_view_western_portion.jpg/1920px-Anguilla-aerial_view_western_portion.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_AI_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cap_Juluca_-_Anguilla.jpg",
+    "author": "tiarescott from Beverly Hills, California, USA",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cap_Juluca_-_Anguilla.jpg/960px-Cap_Juluca_-_Anguilla.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "id": "AS",
+  "name": "American Samoa",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "American Samoa",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_AS_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pola_island.jpg",
+    "author": "Fatumafuti",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pola_island.jpg/1920px-Pola_island.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_AS_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ofu_Beach_American_Samoa_US_National_Park_Service.jpg",
+    "author": "The U.S. National Park Service (public domain)",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ofu_Beach_American_Samoa_US_National_Park_Service.jpg/1920px-Ofu_Beach_American_Samoa_US_National_Park_Service.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_AS_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vatia_from_the_National_Park_of_American_Samoa.jpg",
+    "author": "Eddy23",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Vatia_from_the_National_Park_of_American_Samoa.jpg/1920px-Vatia_from_the_National_Park_of_American_Samoa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "id": "AW",
+  "name": "Aruba",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Aruba",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_AW_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:RIU_Palace_Antillas_-_Aruba.jpg",
+    "author": "Exceptionalimages",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/RIU_Palace_Antillas_-_Aruba.jpg/1920px-RIU_Palace_Antillas_-_Aruba.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_AW_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arikok_NP.jpg",
+    "author": "$Mathe94$",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Arikok_NP.jpg/1920px-Arikok_NP.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_AW_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aruba-Hooiberg-2013.JPG",
+    "author": "Bjørn Christian Tørrissen",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Aruba-Hooiberg-2013.JPG/1920px-Aruba-Hooiberg-2013.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "id": "AX",
+  "name": "Åland",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Åland",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_AX_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vandring_%C3%85land.jpg",
+    "author": "Rebecka-aland",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Vandring_%C3%85land.jpg/1920px-Vandring_%C3%85land.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_AX_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paddla_%C3%85land.jpg",
+    "author": "Rebecka-aland",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Paddla_%C3%85land.jpg/1920px-Paddla_%C3%85land.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_AX_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%A5ngstekta_Sund_%C3%85land_2024-06-01_bild_5.jpg",
+    "author": "Håkan Skogsjö",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/M%C3%A5ngstekta_Sund_%C3%85land_2024-06-01_bild_5.jpg/1920px-M%C3%A5ngstekta_Sund_%C3%85land_2024-06-01_bild_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "id": "BL",
+  "name": "Saint Barthélemy",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Saint Barthélemy",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_BL_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gustavia_San_Barth_001.jpg",
+    "author": "Germanramos",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Gustavia_San_Barth_001.jpg/960px-Gustavia_San_Barth_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_BL_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_at_the_Anse_de_Grande_Saline_on_St._Barthelemy,_French_West_Indies_-_panoramio.jpg",
+    "author": "David Broad",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Beach_at_the_Anse_de_Grande_Saline_on_St._Barthelemy%2C_French_West_Indies_-_panoramio.jpg/960px-Beach_at_the_Anse_de_Grande_Saline_on_St._Barthelemy%2C_French_West_Indies_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_BL_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_a%C3%A9rienne_-_Octobre_2009.jpg",
+    "author": "Starus",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Saint_Barth_-_Vue_a%C3%A9rienne_-_Octobre_2009.jpg/1920px-Saint_Barth_-_Vue_a%C3%A9rienne_-_Octobre_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "id": "BM",
+  "name": "Bermuda",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Bermuda",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_BM_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Harrington_Sound,_Bermuda.jpg",
+    "author": "Adi Marshall",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Harrington_Sound%2C_Bermuda.jpg/1920px-Harrington_Sound%2C_Bermuda.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_BM_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Front_Street,_Hamilton,_Bermuda.jpg",
+    "author": "JoeyBagODonuts",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Front_Street%2C_Hamilton%2C_Bermuda.jpg/1920px-Front_Street%2C_Hamilton%2C_Bermuda.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_BM_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bermuda_(UK)_image_number_237_couple_at_beach_in_Bermuda.jpg",
+    "author": "Tomwsulcer",
+    "lic": "CC0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Bermuda_%28UK%29_image_number_237_couple_at_beach_in_Bermuda.jpg/960px-Bermuda_%28UK%29_image_number_237_couple_at_beach_in_Bermuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "id": "CK",
+  "name": "Cook Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Cook Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_CK_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pukapuka_Atoll.jpg",
+    "author": "NASA",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Pukapuka_Atoll.jpg/1920px-Pukapuka_Atoll.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "id": "CW",
+  "name": "Curaçao",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Curaçao",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_CW_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kon._Wilhelmina_brug_over_the_Waaigat.jpg",
+    "author": "Pi3.124",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Kon._Wilhelmina_brug_over_the_Waaigat.jpg/1920px-Kon._Wilhelmina_brug_over_the_Waaigat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_CW_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grote_Knip_Kenepa_Grandi_Curacao_(36561697451).jpg",
+    "author": "dronepicr",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Grote_Knip_Kenepa_Grandi_Curacao_%2836561697451%29.jpg/1920px-Grote_Knip_Kenepa_Grandi_Curacao_%2836561697451%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_CW_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Curacao_Fort_Beekenburg_Luftbild_(34873603326).jpg",
+    "author": "dronepicr",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Curacao_Fort_Beekenburg_Luftbild_%2834873603326%29.jpg/1920px-Curacao_Fort_Beekenburg_Luftbild_%2834873603326%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "id": "EH",
+  "name": "Western Sahara",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Western Sahara",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_EH_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dait_Um_Saad_2.jpg",
+    "author": "ZAINEB HACHAMI",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Dait_Um_Saad_2.jpg/1920px-Dait_Um_Saad_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "id": "FK",
+  "name": "Falkland Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Falkland Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_FK_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Necksaundersisland2.jpg",
+    "author": "Ben Tubby",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Necksaundersisland2.jpg/1920px-Necksaundersisland2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_FK_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_photo_Port_Stanley_edit.jpg",
+    "author": "User:Tom L-C edit by User:TSP",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Aerial_photo_Port_Stanley_edit.jpg/960px-Aerial_photo_Port_Stanley_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_FK_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:FAL-2016-Stanley,_Falkland_Islands%E2%80%93Christ_Church_Cathedral.jpg",
+    "author": "Godot13",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/FAL-2016-Stanley%2C_Falkland_Islands%E2%80%93Christ_Church_Cathedral.jpg/1920px-FAL-2016-Stanley%2C_Falkland_Islands%E2%80%93Christ_Church_Cathedral.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "id": "FO",
+  "name": "Faroe Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Faroe Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_FO_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Faroe_Islands,_Eysturoy,_Skipanes_and_Undir_G%C3%B8tuei%C3%B0i.jpg",
+    "author": "Vincent van Zeijst",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Faroe_Islands%2C_Eysturoy%2C_Skipanes_and_Undir_G%C3%B8tuei%C3%B0i.jpg/1920px-Faroe_Islands%2C_Eysturoy%2C_Skipanes_and_Undir_G%C3%B8tuei%C3%B0i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_FO_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kunoy,_Faroe_Islands_(2).JPG",
+    "author": "Erik Christensen, Porkeri (Contact at the Danish Wikipedia)",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Kunoy%2C_Faroe_Islands_%282%29.JPG/1920px-Kunoy%2C_Faroe_Islands_%282%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_FO_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tinganes,_T%C3%B3rshavn_2004.1.jpg",
+    "author": "Erik Christensen",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Tinganes%2C_T%C3%B3rshavn_2004.1.jpg/1920px-Tinganes%2C_T%C3%B3rshavn_2004.1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "id": "GG",
+  "name": "Guernsey",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Guernsey",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_GG_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guernsey.jpg",
+    "author": "Steve Johnson",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Guernsey.jpg/1920px-Guernsey.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_GG_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guernsey_ruette_tranquille.jpg",
+    "author": "Stablenode",
+    "lic": "CC0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Guernsey_ruette_tranquille.jpg/1920px-Guernsey_ruette_tranquille.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_GG_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Guernsey_towers.JPG",
+    "author": "Stablenode",
+    "lic": "CC0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Guernsey_towers.JPG/1920px-Guernsey_towers.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "id": "GL",
+  "name": "Greenland",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Greenland",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_GL_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20190626_Harbor_0308_(48480740237).jpg",
+    "author": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/20190626_Harbor_0308_%2848480740237%29.jpg/1920px-20190626_Harbor_0308_%2848480740237%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_GL_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:023_Aerial_view_of_Jakobshavn_Glacier_at_Disko_Bay_(Greenland)_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/023_Aerial_view_of_Jakobshavn_Glacier_at_Disko_Bay_%28Greenland%29_Photo_by_Giles_Laurent.jpg/1920px-023_Aerial_view_of_Jakobshavn_Glacier_at_Disko_Bay_%28Greenland%29_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_GL_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:024_Aerial_view_of_Jakobshavn_Glacier_at_Disko_Bay_(Greenland)_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/024_Aerial_view_of_Jakobshavn_Glacier_at_Disko_Bay_%28Greenland%29_Photo_by_Giles_Laurent.jpg/1920px-024_Aerial_view_of_Jakobshavn_Glacier_at_Disko_Bay_%28Greenland%29_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "id": "GU",
+  "name": "Guam",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Guam",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_GU_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_beach_of_Guam_Reef_Resort,_Tumon_Bay,_USA_(8575993301).jpg",
+    "author": "Luke Ma from Taipei, Taiwan ROC",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/The_beach_of_Guam_Reef_Resort%2C_Tumon_Bay%2C_USA_%288575993301%29.jpg/960px-The_beach_of_Guam_Reef_Resort%2C_Tumon_Bay%2C_USA_%288575993301%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_GU_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hagatna_from_Fort_Santa_Agueda.JPG",
+    "author": "Abasaa",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Hagatna_from_Fort_Santa_Agueda.JPG/1920px-Hagatna_from_Fort_Santa_Agueda.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_GU_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ritidian_Beach_-_Guam_NWR.jpg",
+    "author": "Laura Beuregard, U.S. Fish &amp; Wildlife Service - Pacific",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ritidian_Beach_-_Guam_NWR.jpg/1920px-Ritidian_Beach_-_Guam_NWR.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "id": "HK",
+  "name": "Hong Kong",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Hong Kong",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_HK_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avenue_of_Stars,_Hong_Kong_(2052819038).jpg",
+    "author": "yeowatzup",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Avenue_of_Stars%2C_Hong_Kong_%282052819038%29.jpg/1920px-Avenue_of_Stars%2C_Hong_Kong_%282052819038%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_HK_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_new_banner_on_the_lion_rock_-umbrellarevolution_-umbrellamovement_-occupyhk_-occupyhongkong_(16134715622).jpg",
+    "author": "STUDIO KANU",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/A_new_banner_on_the_lion_rock_-umbrellarevolution_-umbrellamovement_-occupyhk_-occupyhongkong_%2816134715622%29.jpg/1920px-A_new_banner_on_the_lion_rock_-umbrellarevolution_-umbrellamovement_-occupyhk_-occupyhongkong_%2816134715622%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_HK_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Tramways_103(Z05)_Shau_Kei_Wan_to_Happy_Valley_06-07-2020.jpg",
+    "author": "LN9267",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hong_Kong_Tramways_103%28Z05%29_Shau_Kei_Wan_to_Happy_Valley_06-07-2020.jpg/1920px-Hong_Kong_Tramways_103%28Z05%29_Shau_Kei_Wan_to_Happy_Valley_06-07-2020.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "id": "IM",
+  "name": "Isle of Man",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Isle of Man",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_IM_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sound_IOM.JPG",
+    "author": "No machine-readable author provided. Ericbobson assumed (bas",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sound_IOM.JPG/1920px-Sound_IOM.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_IM_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Isle_of_Man_Peel_Castle.jpg",
+    "author": "Finn Bjorklid",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Isle_of_Man_Peel_Castle.jpg/1920px-Isle_of_Man_Peel_Castle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_IM_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Peel_Cathedral_01.JPG",
+    "author": "FinnWikiNo",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Peel_Cathedral_01.JPG/1920px-Peel_Cathedral_01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "id": "JE",
+  "name": "Jersey",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Jersey",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_JE_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mont_Orgueil_and_Gorey_harbour,_Jersey.jpg",
+    "author": "No machine-readable author provided. Man vyi assumed (based",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mont_Orgueil_and_Gorey_harbour%2C_Jersey.jpg/960px-Mont_Orgueil_and_Gorey_harbour%2C_Jersey.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_JE_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_fields_in_St_Clement,_Jersey.jpg",
+    "author": "Danrok",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Aerial_view_of_fields_in_St_Clement%2C_Jersey.jpg/1920px-Aerial_view_of_fields_in_St_Clement%2C_Jersey.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "id": "KY",
+  "name": "Cayman Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Cayman Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_KY_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cayman_Islands_National_Museum_-_George_Town,_Grand_Cayman.jpg",
+    "author": "Lhb1239",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Cayman_Islands_National_Museum_-_George_Town%2C_Grand_Cayman.jpg/1920px-Cayman_Islands_National_Museum_-_George_Town%2C_Grand_Cayman.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_KY_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stingray_passing_-_Grand_Cayman.jpg",
+    "author": "Jcparsaligan",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Stingray_passing_-_Grand_Cayman.jpg/1920px-Stingray_passing_-_Grand_Cayman.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "id": "MF",
+  "name": "Collectivity of Saint Martin",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Collectivity of Saint Martin",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_MF_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Martin_Fort_Louis_View_2010.jpg",
+    "author": "Gruepig",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Saint_Martin_Fort_Louis_View_2010.jpg/1920px-Saint_Martin_Fort_Louis_View_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_MF_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marigot,_le_07.09.17_-_Cr%C3%A9dit_Photo_UIISC1.jpg",
+    "author": "Muteevo2",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Marigot%2C_le_07.09.17_-_Cr%C3%A9dit_Photo_UIISC1.jpg/1920px-Marigot%2C_le_07.09.17_-_Cr%C3%A9dit_Photo_UIISC1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "id": "MO",
+  "name": "Macau",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Macau",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_MO_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marine_photo_g_f.jpg",
+    "author": "Mfwmarketing",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Marine_photo_g_f.jpg/1920px-Marine_photo_g_f.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_MO_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E8%AE%AE%E4%BA%8B%E4%BA%AD%E5%89%8D%E5%9C%B0_-_panoramio.jpg",
+    "author": "gdczjkk",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%E8%AE%AE%E4%BA%8B%E4%BA%AD%E5%89%8D%E5%9C%B0_-_panoramio.jpg/1920px-%E8%AE%AE%E4%BA%8B%E4%BA%AD%E5%89%8D%E5%9C%B0_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_MO_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Macau_Skyline_(157820121).jpeg",
+    "author": "Mike",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Macau_Skyline_%28157820121%29.jpeg/1920px-Macau_Skyline_%28157820121%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "id": "MP",
+  "name": "Northern Mariana Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Northern Mariana Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_MP_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Swimming_Hole_-_panoramio.jpg",
+    "author": "menma1/2",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Swimming_Hole_-_panoramio.jpg/1920px-Swimming_Hole_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_MP_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ManagahaIsland.jpg",
+    "author": "Buffaboy",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/ManagahaIsland.jpg/1920px-ManagahaIsland.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_MP_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saipan.jpg",
+    "author": "P. Miller, (Pdmiller)",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Saipan.jpg/1920px-Saipan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "id": "MS",
+  "name": "Montserrat",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Montserrat",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_MS_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Soufriere_Hills.jpg",
+    "author": "CommonismNow",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Soufriere_Hills.jpg/1920px-Soufriere_Hills.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_MS_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Soufri%C3%A8re_Hills_volcano_in_Monserrat.jpg",
+    "author": "Patrick Hawks",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Soufri%C3%A8re_Hills_volcano_in_Monserrat.jpg/1920px-Soufri%C3%A8re_Hills_volcano_in_Monserrat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_MS_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Monserrat_-_Soufri%C3%A8re_Hills_close-up.jpg",
+    "author": "Pat Hawks",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Monserrat_-_Soufri%C3%A8re_Hills_close-up.jpg/1920px-Monserrat_-_Soufri%C3%A8re_Hills_close-up.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "id": "NC",
+  "name": "New Caledonia",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "New Caledonia",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_NC_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kuto_Bay,_Isle_of_Pines,_New_Caledonia,_2007_(3).JPG",
+    "author": "Bahnfrend",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Kuto_Bay%2C_Isle_of_Pines%2C_New_Caledonia%2C_2007_%283%29.JPG/1920px-Kuto_Bay%2C_Isle_of_Pines%2C_New_Caledonia%2C_2007_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_NC_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kuto_Bay,_Isle_of_Pines,_New_Caledonia,_2007_(5).JPG",
+    "author": "Bahnfrend",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Kuto_Bay%2C_Isle_of_Pines%2C_New_Caledonia%2C_2007_%285%29.JPG/1920px-Kuto_Bay%2C_Isle_of_Pines%2C_New_Caledonia%2C_2007_%285%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_NC_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Creek_South_New_Caledonia.JPG",
+    "author": "Bananaflo",
+    "lic": "CC BY 2.5",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Creek_South_New_Caledonia.JPG/1920px-Creek_South_New_Caledonia.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "id": "NF",
+  "name": "Norfolk Island",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Norfolk Island",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_NF_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Norfolk_Island_(41).jpg",
+    "author": "Brian",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Norfolk_Island_%2841%29.jpg/1920px-Norfolk_Island_%2841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_NF_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Norfolk_Island_Cemetery_(11791661476).jpg",
+    "author": "Bob Hall from Christchurch, New Zealand",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Norfolk_Island_Cemetery_%2811791661476%29.jpg/1920px-Norfolk_Island_Cemetery_%2811791661476%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_NF_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Norfolk-Island-Pines.jpg",
+    "author": "thinboyfatter",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Norfolk-Island-Pines.jpg/1920px-Norfolk-Island-Pines.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "id": "NU",
+  "name": "Niue",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Niue",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_NU_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Limu_Pools_towards_rock_arch.jpg",
+    "author": "Pseudopanax at English Wikipedia",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Limu_Pools_towards_rock_arch.jpg/1920px-Limu_Pools_towards_rock_arch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_NU_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fossilized_coral_pinnacles_at_Togo.jpg",
+    "author": "Pseudopanax at English Wikipedia",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fossilized_coral_pinnacles_at_Togo.jpg/1920px-Fossilized_coral_pinnacles_at_Togo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_NU_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Waves_crashing_on_reef_edge_at_Tuhia-atua.jpg",
+    "author": "Pseudopanax at English Wikipedia",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Waves_crashing_on_reef_edge_at_Tuhia-atua.jpg/1920px-Waves_crashing_on_reef_edge_at_Tuhia-atua.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "id": "PF",
+  "name": "French Polynesia",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "French Polynesia",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_PF_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BoraBora_SEtienne.jpg",
+    "author": "Samuel Etienne",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/BoraBora_SEtienne.jpg/1920px-BoraBora_SEtienne.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_PF_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DL2A_Four_Seasons_Bora_Bora_20.jpg",
+    "author": "Didierlefort",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/DL2A_Four_Seasons_Bora_Bora_20.jpg/1920px-DL2A_Four_Seasons_Bora_Bora_20.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_PF_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DSC00033_Polyn%C3%A9sia_Mor%C3%A9a_island_Haapiti_Beach_(8076090305).jpg",
+    "author": "DANIEL JULIE from Paris, France",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/DSC00033_Polyn%C3%A9sia_Mor%C3%A9a_island_Haapiti_Beach_%288076090305%29.jpg/1920px-DSC00033_Polyn%C3%A9sia_Mor%C3%A9a_island_Haapiti_Beach_%288076090305%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "id": "PM",
+  "name": "Saint Pierre and Miquelon",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Saint Pierre and Miquelon",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_PM_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pointe_Plate_Saint-Pierre-et-Miquelon.jpg",
+    "author": "Murzabov",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pointe_Plate_Saint-Pierre-et-Miquelon.jpg/1920px-Pointe_Plate_Saint-Pierre-et-Miquelon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_PM_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint-Pierre-et-Miquelon_la_Pointe_aux_Canons.jpg",
+    "author": "Marie975",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Saint-Pierre-et-Miquelon_la_Pointe_aux_Canons.jpg/1920px-Saint-Pierre-et-Miquelon_la_Pointe_aux_Canons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_PM_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pointe_Plate_Saint-Pierre-et-Miquelon_2016.jpg",
+    "author": "Orlando Apesteguy",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Pointe_Plate_Saint-Pierre-et-Miquelon_2016.jpg/1920px-Pointe_Plate_Saint-Pierre-et-Miquelon_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "id": "PN",
+  "name": "Pitcairn Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Pitcairn Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_PN_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pitcairn_Island_NOAA.jpg",
+    "author": "NOAA",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pitcairn_Island_NOAA.jpg/960px-Pitcairn_Island_NOAA.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_PN_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bounty_bay.jpg",
+    "author": "Makemake at German Wikipedia",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Bounty_bay.jpg/960px-Bounty_bay.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_PN_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Adamstown1.jpg",
+    "author": "Makemake at de.wikipedia",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Adamstown1.jpg/960px-Adamstown1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "id": "PR",
+  "name": "Puerto Rico",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Puerto Rico",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_PR_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Colors_of_Old_San_Juan_(28488284470).jpg",
+    "author": "Brad Clinesmith from Wilkes-Barre, PA, USA",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/The_Colors_of_Old_San_Juan_%2828488284470%29.jpg/1920px-The_Colors_of_Old_San_Juan_%2828488284470%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_PR_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flying_into_San_Juan-Puerto_Rico.jpg",
+    "author": "Breezy Baldwin",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Flying_into_San_Juan-Puerto_Rico.jpg/1920px-Flying_into_San_Juan-Puerto_Rico.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_PR_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Patillas_Puerto_Rico.jpg",
+    "author": "Oquendo from Freeport, NY",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Patillas_Puerto_Rico.jpg/1920px-Patillas_Puerto_Rico.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "id": "SH",
+  "name": "Saint Helena",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Saint Helena",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_SH_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_central_Jamestown_from_the_top_of_Jacob%27s_Ladder.jpg",
+    "author": "Kevstan",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/View_of_central_Jamestown_from_the_top_of_Jacob%27s_Ladder.jpg/1920px-View_of_central_Jamestown_from_the_top_of_Jacob%27s_Ladder.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_SH_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Street_after_rain_(40222148465).jpg",
+    "author": "Luke McKernan",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Main_Street_after_rain_%2840222148465%29.jpg/1920px-Main_Street_after_rain_%2840222148465%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_SH_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Saint_Paul%27s_Cathedral_in_Saint_Helena.jpg",
+    "author": "Kevstan",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Exterior_of_Saint_Paul%27s_Cathedral_in_Saint_Helena.jpg/1920px-Exterior_of_Saint_Paul%27s_Cathedral_in_Saint_Helena.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 31,
+  "id": "SX",
+  "name": "Sint Maarten",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Sint Maarten",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_SX_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelican_Key,_Koolbaai,_Sint_Maarten_-_panoramio.jpg",
+    "author": "Remy Gumbs (shady P)",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Pelican_Key%2C_Koolbaai%2C_Sint_Maarten_-_panoramio.jpg/1920px-Pelican_Key%2C_Koolbaai%2C_Sint_Maarten_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_SX_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelican_Key,_Koolbaai,_Sint_Maarten_-_panoramio_(3).jpg",
+    "author": "Remy Gumbs (shady P)",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Pelican_Key%2C_Koolbaai%2C_Sint_Maarten_-_panoramio_%283%29.jpg/1920px-Pelican_Key%2C_Koolbaai%2C_Sint_Maarten_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_SX_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Maarten,_Dutch_Side.jpg",
+    "author": "The original uploader was AndonicO at English Wikipedia.",
+    "lic": "CC BY-SA 2.5",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Saint_Maarten%2C_Dutch_Side.jpg/1920px-Saint_Maarten%2C_Dutch_Side.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "id": "TC",
+  "name": "Turks and Caicos Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Turks and Caicos Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_TC_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turtle_Cove_Providenciales_Beach.jpg",
+    "author": "Tim Sackton",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Turtle_Cove_Providenciales_Beach.jpg/1920px-Turtle_Cove_Providenciales_Beach.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_TC_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TC-grand-turk-cruiseterminal-2.jpg",
+    "author": "Balou46",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/TC-grand-turk-cruiseterminal-2.jpg/1920px-TC-grand-turk-cruiseterminal-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_TC_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Providenciales_Mangrove_Reflections.jpg",
+    "author": "Tim Sackton",
+    "lic": "CC BY-SA 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Providenciales_Mangrove_Reflections.jpg/1920px-Providenciales_Mangrove_Reflections.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "id": "TW",
+  "name": "Taiwan",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Taiwan",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_TW_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%9C%B8%E5%B0%96%E5%B1%B1.jpg",
+    "author": "Alan66625",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E5%A4%A7%E9%9C%B8%E5%B0%96%E5%B1%B1.jpg/1920px-%E5%A4%A7%E9%9C%B8%E5%B0%96%E5%B1%B1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_TW_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tainan_Taiwan_Confucius-Temple-06.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Tainan_Taiwan_Confucius-Temple-06.jpg/1920px-Tainan_Taiwan_Confucius-Temple-06.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_TW_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%96%E7%95%8C%E6%9C%80%E7%BE%8E%E7%B8%BD%E7%B5%B1%E5%BA%9C.jpg",
+    "author": "Yji0933721731",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E4%B8%96%E7%95%8C%E6%9C%80%E7%BE%8E%E7%B8%BD%E7%B5%B1%E5%BA%9C.jpg/1920px-%E4%B8%96%E7%95%8C%E6%9C%80%E7%BE%8E%E7%B8%BD%E7%B5%B1%E5%BA%9C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "id": "VG",
+  "name": "British Virgin Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "British Virgin Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_VG_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Virgin_Gorda.jpg",
+    "author": "kansasphoto",
+    "lic": "CC BY 2.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Virgin_Gorda.jpg/1920px-Virgin_Gorda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_VG_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Virgin_Gorda_Savannah_Bay_2010.jpg",
+    "author": "Gruepig",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Virgin_Gorda_Savannah_Bay_2010.jpg/1920px-Virgin_Gorda_Savannah_Bay_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_VG_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Necker_Island_%E2%80%93_Eustatia_Island_-_Prickly_Pear_Island_%E2%80%93_Virgin_Gorda_-_panoramio.jpg",
+    "author": "giggel",
+    "lic": "CC BY 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Necker_Island_%E2%80%93_Eustatia_Island_-_Prickly_Pear_Island_%E2%80%93_Virgin_Gorda_-_panoramio.jpg/1920px-Necker_Island_%E2%80%93_Eustatia_Island_-_Prickly_Pear_Island_%E2%80%93_Virgin_Gorda_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "id": "VI",
+  "name": "United States Virgin Islands",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "United States Virgin Islands",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_VI_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:StJohnTrunkBay.jpg",
+    "author": "Ben Whitney",
+    "lic": "Public domain",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/StJohnTrunkBay.jpg/960px-StJohnTrunkBay.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_VI_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Croix_2012_Wade_2.JPG",
+    "author": "This image or media was taken or created by Matt H. Wad",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Saint_Croix_2012_Wade_2.JPG/1920px-Saint_Croix_2012_Wade_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_VI_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Anna%27s_Retreat,_U.S._Virgin_Islands.jpg",
+    "author": "LittleT889",
+    "lic": "CC BY 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Anna%27s_Retreat%2C_U.S._Virgin_Islands.jpg/1920px-Anna%27s_Retreat%2C_U.S._Virgin_Islands.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "id": "WF",
+  "name": "Wallis and Futuna",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Wallis and Futuna",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_WF_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wallis_vue_du_ciel.jpg",
+    "author": "Anna Vinet",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Wallis_vue_du_ciel.jpg/1920px-Wallis_vue_du_ciel.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ },
+ {
+  "n": 37,
+  "id": "XK",
+  "name": "Kosovo",
+  "landmark": "",
+  "dest": "Territory / no photo yet",
+  "country": "Kosovo",
+  "c": [
+   {
+    "l": "1",
+    "src": "commons",
+    "f": "img/w_XK_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gra%C4%8Danica_Monastery,_2013-1.jpg",
+    "author": "Sasa Micic",
+    "lic": "CC BY-SA 3.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Gra%C4%8Danica_Monastery%2C_2013-1.jpg/1920px-Gra%C4%8Danica_Monastery%2C_2013-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "2",
+    "src": "commons",
+    "f": "img/w_XK_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Qendra_historike_e_Prizrenitaa.jpg",
+    "author": "GentiBehramaj",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Qendra_historike_e_Prizrenitaa.jpg/1920px-Qendra_historike_e_Prizrenitaa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   {
+    "l": "3",
+    "src": "commons",
+    "f": "img/w_XK_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Parku_Komb%C3%ABtar_Bjeshk%C3%ABt_Nemuna,_Liqeni_i_madh_ne_Liqenat,_Rugove.jpg",
+    "author": "Gashi Bujar",
+    "lic": "CC BY-SA 4.0",
+    "full": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Parku_Komb%C3%ABtar_Bjeshk%C3%ABt_Nemuna%2C_Liqeni_i_madh_ne_Liqenat%2C_Rugove.jpg/1920px-Parku_Komb%C3%ABtar_Bjeshk%C3%ABt_Nemuna%2C_Liqeni_i_madh_ne_Liqenat%2C_Rugove.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  ]
+ }
+]
